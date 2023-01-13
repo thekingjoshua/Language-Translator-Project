@@ -9,7 +9,7 @@ const selectEl = document.querySelectorAll('select'),
 
 (function () {
 	// fetching the languages data
-	fetch('language-codes.json')
+	fetch('language-codes sorted-lang.json')
 		.then(resp => resp.json())
 		.then(data => {
 			for (const countryCode in data) {
