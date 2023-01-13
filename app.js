@@ -46,8 +46,7 @@ const selectEl = document.querySelectorAll('select'),
 		let text = fromText.value,
 			translateFrom = selectEl[0].value,
 			translateTo = selectEl[1].value;
-		// let url = `https://api.mymemory.translated.net/get?q=${text}!&langpair=${translateFrom}|${translateTo}`;
-		let url = `get.json`;
+		 let url = `https://api.mymemory.translated.net/get?q=${text}!&langpair=${translateFrom}|${translateTo}`
 		// fetching the data
 		fetch(url)
 			.then(resp => resp.json())
