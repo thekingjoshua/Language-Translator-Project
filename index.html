@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Language Translator</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css" />
+	</head>
+	<body>
+		<div class="main">
+			<h2>Language Translator</h2>
+			<div class="container">
+				<div class="from__container">
+					<textarea class="from__text" placeholder="Enter text"></textarea>
+					<div class="from__controls">
+						<div class="control__icons from__control__icons">
+							<i id="from" class="fa fa-copy"></i>
+							<i id="from" class="fa fa-volume-up"></i>
+							<i class="fa fa-close"></i>
+						</div>
+						<button>Translate</button>
+					</div>
+				</div>
+				<div class="to__container">
+					<textarea class="to__text" placeholder="Translation" readonly disabled></textarea>
+					<div class="control__icons">
+						<i class="fa fa-copy"></i>
+						<i class="fa fa-volume-up"></i>
+					</div>
+				</div>
+			</div>
+			<div class="main__controls">
+				<select></select>
+				<i class="fa fa-exchange"></i>
+				<select></select>
+			</div>
+			<footer>Built with &hearts; by <a href="https://kingjoshua.netlify.app">KingJoshua</a></footer>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
