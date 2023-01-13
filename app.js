@@ -76,6 +76,7 @@ const selectEl = document.querySelectorAll('select'),
 				if (target.classList.contains('fa-close')) {
 					// if CLEAR button is clicked
 					fromText.value = ''; // clearing the field value of the input
+                                        toText.value = ''; // clearing the field value of the input
 				} else {
 					let utterance;
 					// if the FROM speech button is clicked
