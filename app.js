@@ -42,7 +42,8 @@ const selectEl = document.querySelectorAll('select'),
 	// translate button functionality
 	translateBtn.addEventListener('click', () => {
 		if (!fromText.value) return; // using guard clause if the input field is empty
-		toText.setAttribute('placeholder', 'Translating...');
+		toText.textContent = 'Translating...';
+             // toText.setAttribute('placeholder', 'Translating...');
 		let text = fromText.value,
 			translateFrom = selectEl[0].value,
 			translateTo = selectEl[1].value;
