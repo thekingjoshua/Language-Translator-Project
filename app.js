@@ -32,6 +32,7 @@ const selectEl = document.querySelectorAll('select'),
 	// exchange button functionality
 	exchangeIcon.addEventListener('click', () => {
 		// Switching the language text and the selected languages
+              if (!fromText.value) return; // using guard clause if the input field is empty
 		let tempText = fromText.value,
 			tempLang = selectEl[0].value;
 		fromText.value = toText.value;
