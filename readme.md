@@ -2,7 +2,7 @@
 
 ---
 
-[Live Demo](https://.netlify.app)
+[Live Demo](https://kingjay-language-translator.netlify.app)
 
 ## About Project
 
